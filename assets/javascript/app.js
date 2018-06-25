@@ -1,3 +1,4 @@
+
 var panel = $("#play-area");
 
 $(document).on("click", "#start", function(event){
@@ -122,10 +123,10 @@ var game = {
   	  	clearInterval(timer);
 
   	  	$("#subcontainer h2").remove();
-  	   panel.html("<h2>You're Done!</h2>");
-  	   panel.append("<h3>You got this many right: " + this.correct + "</h3>");
-  	   panel.append("<h3>You got this many wrong: " + this.incorrect + "</h3>");
-  	   panel.append("<h3>You didn't answer this many: " + (questions.length - (this.incorrect + this.correct)) + "</h3>");
+  	   panel.html("<h2 You've Finished! </h2>");
+  	   panel.append("<h3>You answered this many questions correctly: " + this.correct + "</h3>");
+  	   panel.append("<h3>You answered this many questoins incorrectly: " + this.incorrect + "</h3>");
+  	   panel.append("<h3> You left this many responses blank " + (questions.length - (this.incorrect + this.correct)) + "</h3>");
   	  
   	  }
 
