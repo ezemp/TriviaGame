@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background: url(../images/SuperSaiyan1.png);
+    text-align: center;
+    opacity: 15%;
+}
+
+#container {
+	padding: 5% 0;
+    width:600px;
+    margin: 75px auto;
+}
+
+#subcontainer {
+	position: relative;
+	top: 20%;
+}
+
+#subcontainer h2 {
+	font-size: 30px;
+	}
+
+#subcontainer h3 {
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 75px;
+	font-weight: bold;
+	padding: 10px 0px 10px 0px;
+	margin: 0px 0px 50px 0px;
+}
+
+button {
+    display: block;
+    width: 200px;
+    height: 80px;
+    margin: 80px auto 0 auto;
+    cursor: pointer;
+    font-size: 45px;
+    
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 35px
+}
+
+h3 {
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+#start {
+	margin-top: 10%;
+	border: 2px solid black;
+}
+
+#done {
+	margin-top: 10%;
+	border: 2px solid black;
+}
+
+#play-area h2 {margin-top: 50px;
+}
